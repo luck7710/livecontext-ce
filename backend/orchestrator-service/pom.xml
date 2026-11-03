@@ -89,7 +89,7 @@
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.17.2</version>
+            <version>1.23.2</version>
         </dependency>
 
         <!-- jtokkit - offline BPE tokenizer (cl100k_base) for token-based chunking
@@ -248,7 +248,7 @@
                  (which dropped putArchiveEntry(ZipArchiveEntry)) - earlier POI
                  versions hit NoSuchMethodError. We pin commons-compress 1.27.1
                  below so POI 5.4.0's bytecode and the runtime classpath agree. -->
-            <version>5.4.0</version>
+            <version>6.0.0</version>
         </dependency>
 
         <!-- Pinned to match POI 5.4.0's compiled-against version. testcontainers
